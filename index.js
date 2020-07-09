@@ -26,7 +26,8 @@ var spaces = [
 "Partner in Chat",
 "Quote is added",
 "Gifted subs",
-"Zzay dies from Fall Damage"
+"Zzay dies from Fall Damage",
+"Light color change"
 ];
 
 var winner = false;
