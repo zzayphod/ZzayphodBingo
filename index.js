@@ -17,7 +17,7 @@ var spaces = [
 "Cumsock is mentioned",
 "Followed by a troll account",
 "Someone gets banned for real",
-"Tier 1 Sub"
+"Tier 1 Sub",
 "Tier 2 Sub",
 "Tier 3 Sub",
 "Someone Backseats",
