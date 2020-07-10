@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
-  background-color: #c8d6a6;
+  background-image: url('img/spacebg.png');
+  font-family: 'Press Start 2P', cursive;
 }
 
 table {
   margin: 0 auto;
   border: 15px solid salmon;
   border-radius: 15px;
-  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 10px 10px 8px #c8d6a6;
 }
 
 td {
@@ -33,6 +36,7 @@ button {
 h1 {
   text-align: center;
   margin-top: 40px;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
