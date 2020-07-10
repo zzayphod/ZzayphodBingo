@@ -48,7 +48,9 @@ var spaces = [
 "Hype Train Level 3",
 "Hype Train Level 4",
 "Hype Train Level 5",
-"Buttsbot targets Meeg"
+"Buttsbot targets Meeg",
+"Baephod peaks the mic",
+"Zzayphod sings"
 ];
 
 var gameOver = false;
