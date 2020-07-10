@@ -1,14 +1,14 @@
 (function(){
 
 var spaces = [
-"Gravy Glimpse",
-"Biscuit Glimpse",
-"Roasted about podcast",
+"Gravy seen on camera",
+"Biscuit seen on camera",
+"Zzay roasted about podcast",
 "Twitch Prime Commercial",
 "Incest is mentioned",
 "Zzay is late",
 "ZZAYOOM",
-"Feather Cyberbullies Zzay",
+"Feather cyberbullies Zzay",
 "Scarebits used",
 "Donation occurs",
 "Zzay gets raided",
@@ -17,6 +17,7 @@ var spaces = [
 "Cumsock is mentioned",
 "Followed by a troll account",
 "Someone gets banned for real",
+"Tier 1 Sub"
 "Tier 2 Sub",
 "Tier 3 Sub",
 "Someone Backseats",
@@ -26,8 +27,22 @@ var spaces = [
 "Partner in Chat",
 "Quote is added",
 "Gifted subs",
-"Zzay dies from Fall Damage",
-"Light color change"
+"Zzay or Bae dies from fall damage",
+"Light color change",
+"Baephod goes to sleep",
+"Zzay makes a pass at light",
+"Baephod beats Zzayphod at any game",
+"Baephod beats a Mario Maker Level",
+"Gravy needs attention",
+"Cats fighting in background",
+"Zzay or Bae spills something",
+"Baephod shows off a plant",
+"Zzayphod tells a lie",
+"Zzay trolls Vic for unfollowing him",
+"Kenzie makes an appearance",
+"Bae gets a snacc",
+"Zzay eats Sour Skittles",
+"Zzay mentions his OnlyFans"
 ];
 
 var winner = false;
