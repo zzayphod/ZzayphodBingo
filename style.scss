@@ -9,8 +9,10 @@ body {
 table {
   margin: 0 auto;
   border: 15px solid salmon;
-  border-radius: 15px;
   box-shadow: 10px 10px 8px #888888;
+  @media only screen and (max-width: 550px){
+    border: 5px solid salmon;
+  }
 }
 
 td {
@@ -22,6 +24,13 @@ td {
   line-height: 17px;
   font-size: 12px;
   background-color: rgb(24, 26, 27);
+  @media only screen and (max-width: 550px){
+    font-size: 5px;
+    line-height: 10px;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+  }
   &.selected {
     background-color: #dc3545;
     color: white;
@@ -33,9 +42,25 @@ td {
 
 button {
   margin: 20px 7px;
+  @media only screen and (max-width: 550px){
+    &.btn-lg {
+      font-size: 16px;
+
+    }
+  }
 }
 
 h1 {
   text-align: center;
   margin-top: 40px;
+  @media only screen and (max-width: 550px){
+    font-size: 1.5rem;
+  }
+}
+h4 {
+  text-align: center;
+}
+
+.modal-content {
+  background-color: rgb(24, 26, 27)
 }

@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 body {
   background-image: url("img/spacebg.png");
-  font-family: "Press Start 2P", cursive;
-  color: white;
-}
+  font-family: 'Press Start 2P', cursive;
+  color: white; }
 
 table {
   margin: 0 auto;
   border: 15px solid salmon;
-  border-radius: 15px;
-  box-shadow: 10px 10px 8px #888888;
-}
+  box-shadow: 10px 10px 8px #888888; }
+  @media only screen and (max-width: 550px) {
+    table {
+      border: 5px solid salmon; } }
 
 td {
   border: 3px solid salmon;
@@ -20,23 +20,37 @@ td {
   text-align: center;
   line-height: 17px;
   font-size: 12px;
-  background-color: #181a1b;
-}
-td.selected {
-  background-color: #dc3545;
-  color: white;
-}
-td:hover {
-  cursor: pointer;
-}
+  background-color: #181a1b; }
+  @media only screen and (max-width: 550px) {
+    td {
+      font-size: 5px;
+      line-height: 10px;
+      width: 80px;
+      height: 80px;
+      padding: 5px; } }
+  td.selected {
+    background-color: #dc3545;
+    color: white; }
+  td:hover {
+    cursor: pointer; }
 
 button {
-  margin: 20px 7px;
-}
+  margin: 20px 7px; }
+  @media only screen and (max-width: 550px) {
+    button.btn-lg {
+      font-size: 16px; } }
 
 h1 {
   text-align: center;
-  margin-top: 40px;
-}
+  margin-top: 40px; }
+  @media only screen and (max-width: 550px) {
+    h1 {
+      font-size: 1.5rem; } }
+
+h4 {
+  text-align: center; }
+
+.modal-content {
+  background-color: #181a1b; }
 
 /*# sourceMappingURL=style.css.map */
