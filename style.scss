@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
-  background-color: rgb(200,214,166);
+  background-image: url('img/spacebg.png');
+  font-family: 'Press Start 2P', cursive;
+  color: white;
 }
 
 table {
@@ -16,7 +20,8 @@ td {
   padding: 10px;
   text-align: center;
   line-height: 17px;
-  background-color: #eee;
+  font-size: 12px;
+  background-color: rgb(24, 26, 27);
   &.selected {
     background-color: #dc3545;
     color: white;

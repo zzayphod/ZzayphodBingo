@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 body {
-  background-image: url('img/spacebg.png');
-  font-family: 'Press Start 2P', cursive;
+  background-image: url("img/spacebg.png");
+  font-family: "Press Start 2P", cursive;
+  color: white;
 }
 
 table {
   margin: 0 auto;
   border: 15px solid salmon;
   border-radius: 15px;
-  box-shadow: 10px 10px 8px #c8d6a6;
+  box-shadow: 10px 10px 8px #888888;
 }
 
 td {
@@ -19,7 +19,8 @@ td {
   padding: 10px;
   text-align: center;
   line-height: 17px;
-  background-color: #eee;
+  font-size: 12px;
+  background-color: #181a1b;
 }
 td.selected {
   background-color: #dc3545;
@@ -36,7 +37,6 @@ button {
 h1 {
   text-align: center;
   margin-top: 40px;
-  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
